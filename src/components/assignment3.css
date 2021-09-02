@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+
+ .leftbar{
+     background-color: black;
+     padding-top:10px;
+     display: inline;
+     height: 60vh;  
+ }
+ .leftbar h2{
+     color: white;
+     font-size: 20px;
+     margin-left: 10px;
+ }
+ .leftbar h3{
+     color: gray;
+      font-size: 15px;
+      margin-left: 10px;
+      
+     
+ }
+ .leftbar h3 a{
+     text-decoration: none;
+     color: gray;
+ }
+ 
+     
+ 
+.trailer{
+    display: inline-block;
+    height: 60vh;
+    background:black;  
+}
+.trailer video{
+   height: 60vh;
+
+    
+}
+.fa{
+   color: white;
+    position: relative;
+    top: -30px;
+    margin-left: 10px;
+}
+ .align{
+     
+     padding-left: 5px;
+ }
+ .imgs{
+    border-radius: 3%;
+   
+ }
+.stick{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.scroll img{
+    width: 320px;
+    margin-left: 5px;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.description{
+    background-color:black;
+    color: white;
+    height: 60vh;
+   
+}
+
+.info h2{
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 20px;
+    font-size: 50px;
+   
+}
+.info p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    
+}
+.info{
+    height: 60vh;
+    overflow-y: scroll;
+}
+.scroll2::-webkit-scrollbar{
+    display: none;
+
+}
+.button{
+    color: white;
+   margin-bottom: 30px;
+   width: 200px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+   
+}
+
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	20% { left: 0; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: 0; }
+}
+#slider figure {
+	width:400%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure img {
+	width: 25%;
+	height : 100%;
+	float: left;
+}
+.top-img{
+    height: 80vh;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     
+}
